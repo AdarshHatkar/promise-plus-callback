@@ -1,0 +1,26 @@
+{
+  "name": "promise-plus-callback",
+  "version": "1.0.0",
+  "description": "Make a callback-based  or promise-based function to support both promises and callbacks using native promise object  ",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "tsc ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdarshHatkar/promise-plus-callback.git"
+  },
+  "keywords": [
+    "promise-callback",
+    "callback",
+    "native",
+    "promise"
+  ],
+  "author": "Adarsh Hatkar <adarsh@primexop.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdarshHatkar/promise-plus-callback/issues"
+  },
+  "homepage": "https://github.com/AdarshHatkar/promise-plus-callback#readme"
+}
