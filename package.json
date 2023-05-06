@@ -14,10 +14,15 @@
     "url": "git+https://github.com/AdarshHatkar/promise-plus-callback.git"
   },
   "keywords": [
-    "promise-callback",
+    "promise",
     "callback",
-    "native",
-    "promise"
+    "promise-callback",
+    "promise plus callback",
+    "promise and callback",
+    "promise to callback",
+    "callback to promise",
+    "native"
+    
   ],
   "author": "Adarsh Hatkar  (http://primexop.com)",
   "license": "MIT",
