@@ -95,6 +95,6 @@
   "exclude": [
     "./dist",
     "./test",
-    "jest.config.js"
+    "jest.config.cjs"
   ]
 }
