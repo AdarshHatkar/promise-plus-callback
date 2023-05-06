@@ -21,7 +21,9 @@
     "promise and callback",
     "promise to callback",
     "callback to promise",
-    "native"
+    "native",
+    "universalify",
+    "universalify Typescript"
     
   ],
   "author": "Adarsh Hatkar  (http://primexop.com)",
