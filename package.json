@@ -1,6 +1,6 @@
 {
   "name": "promise-plus-callback",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Make a callback-based  or promise-based function to support both promises and callbacks using native promise object  ",
   "main": "dist/index.js",
   "type": "module",
@@ -24,7 +24,6 @@
     "native",
     "universalify",
     "universalify Typescript"
-    
   ],
   "author": "Adarsh Hatkar  (http://primexop.com)",
   "license": "MIT",
