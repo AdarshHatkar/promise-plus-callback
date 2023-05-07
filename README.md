@@ -23,7 +23,7 @@ Import or Require
     OR
     const fromPromise = require("promise-plus-callback");
 
-## Here is an example usage of fromCallback function:
+## Here is an example usage of `fromCallback` function:
 
 Suppose you have an asynchronous function readFile that reads a file and takes a callback as the last argument:
 
@@ -32,7 +32,7 @@ function readFile(filename, callback) {
   // Asynchronous operation to read file
 }
 ```
-You can convert this function to return a Promise with fromCallback function as follows:
+You can convert this function to return a Promise with `fromCallback` function as follows:
 ```js
 import {fromCallback} from "promise-plus-callback";
 
@@ -55,7 +55,7 @@ readFilePromise(filename, (err, data) => {
 This allows you to use the same function in either Promise-based or callback-based code.
 
 
-## Here is an example usage of fromPromise function:
+## Here is an example usage of `fromPromise` function:
 
 Suppose we have a function getUser that returns a promise:
 ```js
@@ -72,7 +72,7 @@ function getUser(userId) {
   });
 }
 ```
-We can use fromPromise to create a function that can be called with a callback:
+We can use `fromPromise` to create a function that can be called with a callback:
 ```js
 import {fromPromise} from "promise-plus-callback";
 
