@@ -14,12 +14,14 @@ export const fromCallback = function (fn: Function): Function {
     } else {
       // If called without a callback, return a Promise.
       return new Promise((resolve, reject) => {
-        fn.call(
-          this,
-          ...args,
-          (err: Error | null, res?: any) => (err != null) ? reject(err) : resolve(res)
-        );
-      });
+        fn(...args, (err: Error | null, res?: any) => {
+          if (err) {
+            reject(err)
+          } else {
+            resolve(res)
+          }
+        })
+      })
     }
   }, 'name', { value: fn.name });
 };
